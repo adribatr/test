@@ -1,0 +1,574 @@
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones> <http://www.w3.org/2000/01/rdf-schema#comment> "An ontology about the locations and living beings in the show Game of Thrones.\nAuthors:\nAdrián Barrios Trujillo\nCarles Pallàs Vadillo" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2000/01/rdf-schema#sameAs
+<http://www.w3.org/2000/01/rdf-schema#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#comes_from
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#comes_from> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#comes_from> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#comes_from> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#comes_from> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Living_Being> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#comes_from> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Known_World> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#comes_from> <http://www.w3.org/2000/01/rdf-schema#comment> "Object property comes_from" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#comes_from> <http://www.w3.org/2000/01/rdf-schema#label> "comes_from" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#culture_formed_by
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#culture_formed_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#culture_formed_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#culture_formed_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#culture_formed_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Known_World> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#culture_formed_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#culture_formed_by> <http://www.w3.org/2000/01/rdf-schema#comment> "Object property culture_formed_by" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#culture_formed_by> <http://www.w3.org/2000/01/rdf-schema#label> "culture_formed_by" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_children
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_children> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_children> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#is_child_of> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_children> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_children> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_children> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_children> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_children> <http://www.w3.org/2000/01/rdf-schema#comment> "Object property has_children" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_children> <http://www.w3.org/2000/01/rdf-schema#label> "has_children" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_non-human_allies
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_non-human_allies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_non-human_allies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_non-human_allies> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_non-human_allies> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Legendary_Creature> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_non-human_allies> <http://www.w3.org/2000/01/rdf-schema#comment> "Object property has_non-human_allies" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_non-human_allies> <http://www.w3.org/2000/01/rdf-schema#label> "has_non-human_allies" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_siblings
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_siblings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_siblings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_siblings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_siblings> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_siblings> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_siblings> <http://www.w3.org/2000/01/rdf-schema#comment> "Object property has_siblings" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_siblings> <http://www.w3.org/2000/01/rdf-schema#label> "has_siblings" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#is_child_of
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#is_child_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#is_child_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#is_child_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#is_child_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#is_child_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#is_child_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Object property is_child_of" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#is_child_of> <http://www.w3.org/2000/01/rdf-schema#label> "is_child_of" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#born
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#born> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#born> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#born> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Living_Being> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#born> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#born> <http://www.w3.org/2000/01/rdf-schema#comment> "Data property born" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#born> <http://www.w3.org/2000/01/rdf-schema#label> "born" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_religion
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_religion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_religion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Known_World> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_religion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_religion> <http://www.w3.org/2000/01/rdf-schema#comment> "Data property has_religion" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_religion> <http://www.w3.org/2000/01/rdf-schema#label> "has_religion" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#is_dead
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#is_dead> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#is_dead> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#is_dead> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Living_Being> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#is_dead> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#is_dead> <http://www.w3.org/2000/01/rdf-schema#comment> "Data property is_dead" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#is_dead> <http://www.w3.org/2000/01/rdf-schema#label> "is_dead" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#portrayed_by
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#portrayed_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#portrayed_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#portrayed_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Living_Being> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#portrayed_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#portrayed_by> <http://www.w3.org/2000/01/rdf-schema#comment> "Data property portrayed_by" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#portrayed_by> <http://www.w3.org/2000/01/rdf-schema#label> "portrayed_by" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#was_own_kingdom
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#was_own_kingdom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#was_own_kingdom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#was_own_kingdom> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Seven_Kingdoms> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#was_own_kingdom> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#was_own_kingdom> <http://www.w3.org/2000/01/rdf-schema#comment> "Data property was_own_kingdom" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#was_own_kingdom> <http://www.w3.org/2000/01/rdf-schema#label> "was_own_kingdom" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Andals
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Andals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Andals> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Andals> <http://www.w3.org/2000/01/rdf-schema#comment> "Class Andals" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Andals> <http://www.w3.org/2000/01/rdf-schema#label> "Andals" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Beyond_The_Wall
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Beyond_The_Wall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Beyond_The_Wall> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Westeros> .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Cave_People
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Cave_People> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Cave_People> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Free_Folk> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Cave_People> <http://www.w3.org/2000/01/rdf-schema#comment> "Class Cave_People" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Cave_People> <http://www.w3.org/2000/01/rdf-schema#label> "Cave_People" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Children_Of_The_Forest
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Children_Of_The_Forest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Children_Of_The_Forest> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Legendary_Creature> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Children_Of_The_Forest> <http://www.w3.org/2000/01/rdf-schema#comment> "Class Children_Of_The_Forest" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Children_Of_The_Forest> <http://www.w3.org/2000/01/rdf-schema#label> "Children_Of_The_Forest" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Crannongmen
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Crannongmen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Crannongmen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Crannongmen> <http://www.w3.org/2000/01/rdf-schema#comment> "Class Crannongmen" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Crannongmen> <http://www.w3.org/2000/01/rdf-schema#label> "Crannongmen" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dorne
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dorne> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dorne> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Seven_Kingdoms> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dorne> <http://www.w3.org/2000/01/rdf-schema#comment> "Class Dorne" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dorne> <http://www.w3.org/2000/01/rdf-schema#label> "Dorne" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dornishmen
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dornishmen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dornishmen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human> .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dothraki
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dothraki> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dothraki> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dothraki> <http://www.w3.org/2000/01/rdf-schema#comment> "Class Dothraki" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dothraki> <http://www.w3.org/2000/01/rdf-schema#label> "Dothraki" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dragon
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dragon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dragon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Legendary_Creature> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dragon> <http://www.w3.org/2000/01/rdf-schema#comment> "Class Dragon" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dragon> <http://www.w3.org/2000/01/rdf-schema#label> "Dragon" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dragon> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/page/Dragon" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Essos
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Essos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Essos> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Known_World> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Essos> <http://www.w3.org/2000/01/rdf-schema#comment> "Class Essos" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Essos> <http://www.w3.org/2000/01/rdf-schema#label> "Essos" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#First_Men
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#First_Men> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#First_Men> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#First_Men> <http://www.w3.org/2000/01/rdf-schema#comment> "Class First_Men" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#First_Men> <http://www.w3.org/2000/01/rdf-schema#label> "First_Men" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Free_Cities
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Free_Cities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Free_Cities> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Essos> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Free_Cities> <http://www.w3.org/2000/01/rdf-schema#comment> "Class Free_Cities" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Free_Cities> <http://www.w3.org/2000/01/rdf-schema#label> "Free_Cities" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Free_Folk
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Free_Folk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Free_Folk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Free_Folk> <http://www.w3.org/2000/01/rdf-schema#comment> "Class Free_Folk" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Free_Folk> <http://www.w3.org/2000/01/rdf-schema#label> "Free_Folk" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Ghiscari
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Ghiscari> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Ghiscari> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Ghiscari> <http://www.w3.org/2000/01/rdf-schema#comment> "Class Ghiscari" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Ghiscari> <http://www.w3.org/2000/01/rdf-schema#label> "Ghiscari" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Giant
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Giant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Giant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Legendary_Creature> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Giant> <http://www.w3.org/2000/01/rdf-schema#comment> "Class Giant" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Giant> <http://www.w3.org/2000/01/rdf-schema#label> "Giant" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Giant> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/page/Giant" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Harpy
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Harpy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Harpy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Legendary_Creature> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Harpy> <http://www.w3.org/2000/01/rdf-schema#comment> "Class Harpy" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Harpy> <http://www.w3.org/2000/01/rdf-schema#label> "Harpy" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Harpy> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/page/Harpy" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Hill_Tribes
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Hill_Tribes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Hill_Tribes> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Hill_Tribes> <http://www.w3.org/2000/01/rdf-schema#comment> "Class Hill_Tribes" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Hill_Tribes> <http://www.w3.org/2000/01/rdf-schema#label> "Hill_Tribes" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Hornfoot
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Hornfoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Hornfoot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Free_Folk> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Hornfoot> <http://www.w3.org/2000/01/rdf-schema#comment> "Class Hornfoot" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Hornfoot> <http://www.w3.org/2000/01/rdf-schema#label> "Hornfoot" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Living_Being> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Legendary_Creature> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human> <http://www.w3.org/2000/01/rdf-schema#comment> "Class Human" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human> <http://www.w3.org/2000/01/rdf-schema#label> "Human" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/page/Human" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Ice-River_Clans
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Ice-River_Clans> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Ice-River_Clans> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Free_Folk> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Ice-River_Clans> <http://www.w3.org/2000/01/rdf-schema#comment> "Class Ice-River_Clans" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Ice-River_Clans> <http://www.w3.org/2000/01/rdf-schema#label> "Ice-River_Clans" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Ironborn
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Ironborn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Ironborn> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Ironborn> <http://www.w3.org/2000/01/rdf-schema#comment> "Class Ironborn" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Ironborn> <http://www.w3.org/2000/01/rdf-schema#label> "Ironborn" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Known_World
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Known_World> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Known_World> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Living_Being> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Known_World> <http://www.w3.org/2000/01/rdf-schema#comment> "Class Known_World" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Known_World> <http://www.w3.org/2000/01/rdf-schema#label> "Known_World" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Legendary_Creature
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Legendary_Creature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Legendary_Creature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Living_Being> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Legendary_Creature> <http://www.w3.org/2000/01/rdf-schema#comment> "Class Legendary_Creature" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Legendary_Creature> <http://www.w3.org/2000/01/rdf-schema#label> "Legendary_Creature" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Legendary_Creature> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/page/Legendary_creature" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Lhazareen
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Lhazareen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Lhazareen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Lhazareen> <http://www.w3.org/2000/01/rdf-schema#comment> "Class Lhazareen" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Lhazareen> <http://www.w3.org/2000/01/rdf-schema#label> "Lhazareen" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Living_Being
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Living_Being> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Living_Being> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Known_World> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#comes_from> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Living_Being> <http://www.w3.org/2000/01/rdf-schema#comment> "Class Living_Being" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Living_Being> <http://www.w3.org/2000/01/rdf-schema#label> "Living_Being" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Seven_Kingdoms
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Seven_Kingdoms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Seven_Kingdoms> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Westeros> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Seven_Kingdoms> <http://www.w3.org/2000/01/rdf-schema#comment> "Class Seven_Kingdoms" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Seven_Kingdoms> <http://www.w3.org/2000/01/rdf-schema#label> "Seven_Kingdoms" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Shadow
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Shadow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Shadow> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Legendary_Creature> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Shadow> <http://www.w3.org/2000/01/rdf-schema#comment> "Class Shadow" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Shadow> <http://www.w3.org/2000/01/rdf-schema#label> "Shadow" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Sothoryos
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Sothoryos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Sothoryos> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Known_World> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Sothoryos> <http://www.w3.org/2000/01/rdf-schema#comment> "Class Sothoryos" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Sothoryos> <http://www.w3.org/2000/01/rdf-schema#label> "Sothoryos" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Crownlands
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Crownlands> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Crownlands> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Seven_Kingdoms> .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Iron_Islands
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Iron_Islands> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Iron_Islands> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Seven_Kingdoms> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Iron_Islands> <http://www.w3.org/2000/01/rdf-schema#comment> "Class The_Iron_Islands" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Iron_Islands> <http://www.w3.org/2000/01/rdf-schema#label> "The_Iron_Islands" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_North
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_North> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_North> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Seven_Kingdoms> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_North> <http://www.w3.org/2000/01/rdf-schema#comment> "Class The_North" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_North> <http://www.w3.org/2000/01/rdf-schema#label> "The_North" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Reach
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Reach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Reach> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Seven_Kingdoms> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Reach> <http://www.w3.org/2000/01/rdf-schema#comment> "Class The_Reach" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Reach> <http://www.w3.org/2000/01/rdf-schema#label> "The_Reach" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Riverlands
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Riverlands> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Riverlands> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Seven_Kingdoms> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Riverlands> <http://www.w3.org/2000/01/rdf-schema#comment> "Class The_Riverlands" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Riverlands> <http://www.w3.org/2000/01/rdf-schema#label> "The_Riverlands" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Stormlands
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Stormlands> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Stormlands> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Seven_Kingdoms> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Stormlands> <http://www.w3.org/2000/01/rdf-schema#comment> "Class The_Stormlands" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Stormlands> <http://www.w3.org/2000/01/rdf-schema#label> "The_Stormlands" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Vale_of_Arryn
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Vale_of_Arryn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Vale_of_Arryn> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Seven_Kingdoms> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Vale_of_Arryn> <http://www.w3.org/2000/01/rdf-schema#comment> "Class The_Vale_of_Arryn" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Vale_of_Arryn> <http://www.w3.org/2000/01/rdf-schema#label> "The_Vale_of_Arryn" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Westerlands
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Westerlands> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Westerlands> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Seven_Kingdoms> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Westerlands> <http://www.w3.org/2000/01/rdf-schema#comment> "Class The_Westerlands" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Westerlands> <http://www.w3.org/2000/01/rdf-schema#label> "The_Westerlands" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Thenn
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Thenn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Thenn> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Free_Folk> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Thenn> <http://www.w3.org/2000/01/rdf-schema#comment> "Class Thenn" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Thenn> <http://www.w3.org/2000/01/rdf-schema#label> "Thenn" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Valyrians
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Valyrians> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Valyrians> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human> .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Westeros
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Westeros> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Westeros> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Known_World> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Westeros> <http://www.w3.org/2000/01/rdf-schema#comment> "Class Westeros" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Westeros> <http://www.w3.org/2000/01/rdf-schema#label> "Westeros" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#White_Walker
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#White_Walker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#White_Walker> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Legendary_Creature> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#White_Walker> <http://www.w3.org/2000/01/rdf-schema#comment> "Class White_Walker" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#White_Walker> <http://www.w3.org/2000/01/rdf-schema#label> "White_Walker" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Wight
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Wight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Wight> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Legendary_Creature> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Wight> <http://www.w3.org/2000/01/rdf-schema#comment> "Class Wight" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Wight> <http://www.w3.org/2000/01/rdf-schema#label> "Wight" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Aerys_II_Targaryen
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Aerys_II_Targaryen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Aerys_II_Targaryen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Valyrians> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Aerys_II_Targaryen> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_children> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Daenerys_I_Targaryen> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Aerys_II_Targaryen> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_children> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Viserys_Targaryen> .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Beyond_The_Wall
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Beyond_The_Wall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Beyond_The_Wall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Beyond_The_Wall> .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Daenerys_I_Targaryen
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Daenerys_I_Targaryen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Daenerys_I_Targaryen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Daenerys_I_Targaryen> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#comes_from> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dragonstone> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Daenerys_I_Targaryen> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_children> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Rhaego> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Daenerys_I_Targaryen> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_non-human_allies> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Drogon> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Daenerys_I_Targaryen> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#born> "281"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Daenerys_I_Targaryen> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#is_dead> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Daenerys_I_Targaryen> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#portrayed_by> "Emilia Clarke" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dornishmen
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dornishmen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dornishmen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dornishmen> .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dragonstone
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dragonstone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dragonstone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Westeros> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dragonstone> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#culture_formed_by> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Valyrians> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dragonstone> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_religion> "Faith of the Seven" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dragonstone> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_religion> "R'hllor, the Lord of Light" .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Drogon
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Drogon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Drogon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dragon> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Drogon> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#born> "298"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Drogon> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#is_dead> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Mance_Rayder
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Mance_Rayder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Mance_Rayder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Mance_Rayder> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#comes_from> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Beyond_The_Wall> .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Rhaego
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Rhaego> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Rhaego> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human> .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Sunspear
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Sunspear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Sunspear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Known_World> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Sunspear> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#culture_formed_by> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dornishmen> .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Crownlands
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Crownlands> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Crownlands> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Crownlands> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Crownlands> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_religion> "Faith of the Seven" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Crownlands> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#was_own_kingdom> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Valyrians
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Valyrians> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Valyrians> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Valyrians> .
+# 
+# http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Viserys_Targaryen
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Viserys_Targaryen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Viserys_Targaryen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Valyrians> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Viserys_Targaryen> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_siblings> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Daenerys_I_Targaryen> .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Viserys_Targaryen> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#is_dead> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Beyond_The_Wall> <http://www.w3.org/2000/01/rdf-schema#comment> "Class Beyond_The_Wall" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Beyond_The_Wall> <http://www.w3.org/2000/01/rdf-schema#label> "Beyond_The_Wall" .
+# 
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dornishmen> <http://www.w3.org/2000/01/rdf-schema#comment> "Class Dornishmen" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dornishmen> <http://www.w3.org/2000/01/rdf-schema#label> "Dornishmen" .
+# 
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Crownlands> <http://www.w3.org/2000/01/rdf-schema#comment> "Class The_Crownlands" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Crownlands> <http://www.w3.org/2000/01/rdf-schema#label> "The_Crownlands" .
+# 
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Valyrians> <http://www.w3.org/2000/01/rdf-schema#comment> "Class Valyrians" .
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Valyrians> <http://www.w3.org/2000/01/rdf-schema#label> "Valyrians" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Rules
+# #
+# #################################################################
+# 
+# 
+<urn:swrl:var#x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#y> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid11 <http://www.w3.org/2003/11/swrl#body> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid13 .
+_:genid13 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#y> .
+_:genid13 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dragon> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid15 .
+_:genid15 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#y> .
+_:genid15 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#x> .
+_:genid15 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_non-human_allies> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid17 .
+_:genid17 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#x> .
+_:genid17 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid11 <http://www.w3.org/2003/11/swrl#head> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid19 .
+_:genid19 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#x> .
+_:genid19 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Valyrians> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid2 <http://www.w3.org/2003/11/swrl#body> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid4 .
+_:genid4 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#y> .
+_:genid4 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Beyond_The_Wall> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid6 .
+_:genid6 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#y> .
+_:genid6 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#x> .
+_:genid6 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#comes_from> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid8 .
+_:genid8 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#x> .
+_:genid8 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid2 <http://www.w3.org/2003/11/swrl#head> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid10 .
+_:genid10 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#x> .
+_:genid10 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Free_Folk> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid20 <http://www.w3.org/2003/11/swrl#body> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid22 .
+_:genid22 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#y> .
+_:genid22 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dornishmen> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid24 .
+_:genid24 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#y> .
+_:genid24 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#x> .
+_:genid24 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#culture_formed_by> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid26 .
+_:genid26 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#x> .
+_:genid26 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Known_World> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid20 <http://www.w3.org/2003/11/swrl#head> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid28 .
+_:genid28 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#x> .
+_:genid28 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dorne> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

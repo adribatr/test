@@ -1,0 +1,628 @@
+@prefix : <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#> .
+
+<http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones> rdf:type owl:Ontology ;
+                                                                    rdfs:comment """An ontology about the locations and living beings in the show Game of Thrones.
+Authors:
+Adrián Barrios Trujillo
+Carles Pallàs Vadillo""" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2000/01/rdf-schema#sameAs
+rdfs:sameAs rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#comes_from
+:comes_from rdf:type owl:ObjectProperty ,
+                     owl:AsymmetricProperty ,
+                     owl:IrreflexiveProperty ;
+            rdfs:domain :Living_Being ;
+            rdfs:range :Known_World ;
+            rdfs:comment "Object property comes_from" ;
+            rdfs:label "comes_from" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#culture_formed_by
+:culture_formed_by rdf:type owl:ObjectProperty ,
+                            owl:AsymmetricProperty ,
+                            owl:IrreflexiveProperty ;
+                   rdfs:domain :Known_World ;
+                   rdfs:range :Human ;
+                   rdfs:comment "Object property culture_formed_by" ;
+                   rdfs:label "culture_formed_by" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_children
+:has_children rdf:type owl:ObjectProperty ;
+              owl:inverseOf :is_child_of ;
+              rdf:type owl:AsymmetricProperty ,
+                       owl:IrreflexiveProperty ;
+              rdfs:domain :Human ;
+              rdfs:range :Human ;
+              rdfs:comment "Object property has_children" ;
+              rdfs:label "has_children" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_non-human_allies
+:has_non-human_allies rdf:type owl:ObjectProperty ,
+                               owl:IrreflexiveProperty ;
+                      rdfs:domain :Human ;
+                      rdfs:range :Legendary_Creature ;
+                      rdfs:comment "Object property has_non-human_allies" ;
+                      rdfs:label "has_non-human_allies" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_siblings
+:has_siblings rdf:type owl:ObjectProperty ,
+                       owl:SymmetricProperty ,
+                       owl:IrreflexiveProperty ;
+              rdfs:domain :Human ;
+              rdfs:range :Human ;
+              rdfs:comment "Object property has_siblings" ;
+              rdfs:label "has_siblings" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#is_child_of
+:is_child_of rdf:type owl:ObjectProperty ,
+                      owl:AsymmetricProperty ,
+                      owl:IrreflexiveProperty ;
+             rdfs:domain :Human ;
+             rdfs:range :Human ;
+             rdfs:comment "Object property is_child_of" ;
+             rdfs:label "is_child_of" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#born
+:born rdf:type owl:DatatypeProperty ,
+               owl:FunctionalProperty ;
+      rdfs:domain :Living_Being ;
+      rdfs:range xsd:integer ;
+      rdfs:comment "Data property born" ;
+      rdfs:label "born" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_religion
+:has_religion rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Known_World ;
+              rdfs:range xsd:string ;
+              rdfs:comment "Data property has_religion" ;
+              rdfs:label "has_religion" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#is_dead
+:is_dead rdf:type owl:DatatypeProperty ,
+                  owl:FunctionalProperty ;
+         rdfs:domain :Living_Being ;
+         rdfs:range xsd:boolean ;
+         rdfs:comment "Data property is_dead" ;
+         rdfs:label "is_dead" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#portrayed_by
+:portrayed_by rdf:type owl:DatatypeProperty ,
+                       owl:FunctionalProperty ;
+              rdfs:domain :Living_Being ;
+              rdfs:range xsd:string ;
+              rdfs:comment "Data property portrayed_by" ;
+              rdfs:label "portrayed_by" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#was_own_kingdom
+:was_own_kingdom rdf:type owl:DatatypeProperty ,
+                          owl:FunctionalProperty ;
+                 rdfs:domain :Seven_Kingdoms ;
+                 rdfs:range xsd:boolean ;
+                 rdfs:comment "Data property was_own_kingdom" ;
+                 rdfs:label "was_own_kingdom" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Andals
+:Andals rdf:type owl:Class ;
+        rdfs:subClassOf :Human ;
+        rdfs:comment "Class Andals" ;
+        rdfs:label "Andals" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Beyond_The_Wall
+:Beyond_The_Wall rdf:type owl:Class ;
+                 rdfs:subClassOf :Westeros .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Cave_People
+:Cave_People rdf:type owl:Class ;
+             rdfs:subClassOf :Free_Folk ;
+             rdfs:comment "Class Cave_People" ;
+             rdfs:label "Cave_People" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Children_Of_The_Forest
+:Children_Of_The_Forest rdf:type owl:Class ;
+                        rdfs:subClassOf :Legendary_Creature ;
+                        rdfs:comment "Class Children_Of_The_Forest" ;
+                        rdfs:label "Children_Of_The_Forest" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Crannongmen
+:Crannongmen rdf:type owl:Class ;
+             rdfs:subClassOf :Human ;
+             rdfs:comment "Class Crannongmen" ;
+             rdfs:label "Crannongmen" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dorne
+:Dorne rdf:type owl:Class ;
+       rdfs:subClassOf :Seven_Kingdoms ;
+       rdfs:comment "Class Dorne" ;
+       rdfs:label "Dorne" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dornishmen
+:Dornishmen rdf:type owl:Class ;
+            rdfs:subClassOf :Human .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dothraki
+:Dothraki rdf:type owl:Class ;
+          rdfs:subClassOf :Human ;
+          rdfs:comment "Class Dothraki" ;
+          rdfs:label "Dothraki" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dragon
+:Dragon rdf:type owl:Class ;
+        rdfs:subClassOf :Legendary_Creature ;
+        rdfs:comment "Class Dragon" ;
+        rdfs:label "Dragon" ;
+        rdfs:sameAs "https://dbpedia.org/page/Dragon" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Essos
+:Essos rdf:type owl:Class ;
+       rdfs:subClassOf :Known_World ;
+       rdfs:comment "Class Essos" ;
+       rdfs:label "Essos" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#First_Men
+:First_Men rdf:type owl:Class ;
+           rdfs:subClassOf :Human ;
+           rdfs:comment "Class First_Men" ;
+           rdfs:label "First_Men" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Free_Cities
+:Free_Cities rdf:type owl:Class ;
+             rdfs:subClassOf :Essos ;
+             rdfs:comment "Class Free_Cities" ;
+             rdfs:label "Free_Cities" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Free_Folk
+:Free_Folk rdf:type owl:Class ;
+           rdfs:subClassOf :Human ;
+           rdfs:comment "Class Free_Folk" ;
+           rdfs:label "Free_Folk" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Ghiscari
+:Ghiscari rdf:type owl:Class ;
+          rdfs:subClassOf :Human ;
+          rdfs:comment "Class Ghiscari" ;
+          rdfs:label "Ghiscari" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Giant
+:Giant rdf:type owl:Class ;
+       rdfs:subClassOf :Legendary_Creature ;
+       rdfs:comment "Class Giant" ;
+       rdfs:label "Giant" ;
+       rdfs:sameAs "https://dbpedia.org/page/Giant" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Harpy
+:Harpy rdf:type owl:Class ;
+       rdfs:subClassOf :Legendary_Creature ;
+       rdfs:comment "Class Harpy" ;
+       rdfs:label "Harpy" ;
+       rdfs:sameAs "https://dbpedia.org/page/Harpy" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Hill_Tribes
+:Hill_Tribes rdf:type owl:Class ;
+             rdfs:subClassOf :Human ;
+             rdfs:comment "Class Hill_Tribes" ;
+             rdfs:label "Hill_Tribes" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Hornfoot
+:Hornfoot rdf:type owl:Class ;
+          rdfs:subClassOf :Free_Folk ;
+          rdfs:comment "Class Hornfoot" ;
+          rdfs:label "Hornfoot" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human
+:Human rdf:type owl:Class ;
+       rdfs:subClassOf :Living_Being ;
+       owl:disjointWith :Legendary_Creature ;
+       rdfs:comment "Class Human" ;
+       rdfs:label "Human" ;
+       rdfs:sameAs "https://dbpedia.org/page/Human" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Ice-River_Clans
+:Ice-River_Clans rdf:type owl:Class ;
+                 rdfs:subClassOf :Free_Folk ;
+                 rdfs:comment "Class Ice-River_Clans" ;
+                 rdfs:label "Ice-River_Clans" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Ironborn
+:Ironborn rdf:type owl:Class ;
+          rdfs:subClassOf :Human ;
+          rdfs:comment "Class Ironborn" ;
+          rdfs:label "Ironborn" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Known_World
+:Known_World rdf:type owl:Class ;
+             owl:disjointWith :Living_Being ;
+             rdfs:comment "Class Known_World" ;
+             rdfs:label "Known_World" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Legendary_Creature
+:Legendary_Creature rdf:type owl:Class ;
+                    rdfs:subClassOf :Living_Being ;
+                    rdfs:comment "Class Legendary_Creature" ;
+                    rdfs:label "Legendary_Creature" ;
+                    rdfs:sameAs "https://dbpedia.org/page/Legendary_creature" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Lhazareen
+:Lhazareen rdf:type owl:Class ;
+           rdfs:subClassOf :Human ;
+           rdfs:comment "Class Lhazareen" ;
+           rdfs:label "Lhazareen" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Living_Being
+:Living_Being rdf:type owl:Class ;
+              rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                owl:onProperty :comes_from ;
+                                owl:someValuesFrom :Known_World
+                              ] ;
+              rdfs:comment "Class Living_Being" ;
+              rdfs:label "Living_Being" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Seven_Kingdoms
+:Seven_Kingdoms rdf:type owl:Class ;
+                rdfs:subClassOf :Westeros ;
+                rdfs:comment "Class Seven_Kingdoms" ;
+                rdfs:label "Seven_Kingdoms" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Shadow
+:Shadow rdf:type owl:Class ;
+        rdfs:subClassOf :Legendary_Creature ;
+        rdfs:comment "Class Shadow" ;
+        rdfs:label "Shadow" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Sothoryos
+:Sothoryos rdf:type owl:Class ;
+           rdfs:subClassOf :Known_World ;
+           rdfs:comment "Class Sothoryos" ;
+           rdfs:label "Sothoryos" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Crownlands
+:The_Crownlands rdf:type owl:Class ;
+                rdfs:subClassOf :Seven_Kingdoms .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Iron_Islands
+:The_Iron_Islands rdf:type owl:Class ;
+                  rdfs:subClassOf :Seven_Kingdoms ;
+                  rdfs:comment "Class The_Iron_Islands" ;
+                  rdfs:label "The_Iron_Islands" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_North
+:The_North rdf:type owl:Class ;
+           rdfs:subClassOf :Seven_Kingdoms ;
+           rdfs:comment "Class The_North" ;
+           rdfs:label "The_North" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Reach
+:The_Reach rdf:type owl:Class ;
+           rdfs:subClassOf :Seven_Kingdoms ;
+           rdfs:comment "Class The_Reach" ;
+           rdfs:label "The_Reach" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Riverlands
+:The_Riverlands rdf:type owl:Class ;
+                rdfs:subClassOf :Seven_Kingdoms ;
+                rdfs:comment "Class The_Riverlands" ;
+                rdfs:label "The_Riverlands" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Stormlands
+:The_Stormlands rdf:type owl:Class ;
+                rdfs:subClassOf :Seven_Kingdoms ;
+                rdfs:comment "Class The_Stormlands" ;
+                rdfs:label "The_Stormlands" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Vale_of_Arryn
+:The_Vale_of_Arryn rdf:type owl:Class ;
+                   rdfs:subClassOf :Seven_Kingdoms ;
+                   rdfs:comment "Class The_Vale_of_Arryn" ;
+                   rdfs:label "The_Vale_of_Arryn" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Westerlands
+:The_Westerlands rdf:type owl:Class ;
+                 rdfs:subClassOf :Seven_Kingdoms ;
+                 rdfs:comment "Class The_Westerlands" ;
+                 rdfs:label "The_Westerlands" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Thenn
+:Thenn rdf:type owl:Class ;
+       rdfs:subClassOf :Free_Folk ;
+       rdfs:comment "Class Thenn" ;
+       rdfs:label "Thenn" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Valyrians
+:Valyrians rdf:type owl:Class ;
+           rdfs:subClassOf :Human .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Westeros
+:Westeros rdf:type owl:Class ;
+          rdfs:subClassOf :Known_World ;
+          rdfs:comment "Class Westeros" ;
+          rdfs:label "Westeros" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#White_Walker
+:White_Walker rdf:type owl:Class ;
+              rdfs:subClassOf :Legendary_Creature ;
+              rdfs:comment "Class White_Walker" ;
+              rdfs:label "White_Walker" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Wight
+:Wight rdf:type owl:Class ;
+       rdfs:subClassOf :Legendary_Creature ;
+       rdfs:comment "Class Wight" ;
+       rdfs:label "Wight" .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Aerys_II_Targaryen
+:Aerys_II_Targaryen rdf:type owl:NamedIndividual ,
+                             :Valyrians ;
+                    :has_children :Daenerys_I_Targaryen ,
+                                  :Viserys_Targaryen .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Beyond_The_Wall
+:Beyond_The_Wall rdf:type owl:NamedIndividual ,
+                          :Beyond_The_Wall .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Daenerys_I_Targaryen
+:Daenerys_I_Targaryen rdf:type owl:NamedIndividual ,
+                               :Human ;
+                      :comes_from :Dragonstone ;
+                      :has_children :Rhaego ;
+                      :has_non-human_allies :Drogon ;
+                      :born 281 ;
+                      :is_dead "true"^^xsd:boolean ;
+                      :portrayed_by "Emilia Clarke" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dornishmen
+:Dornishmen rdf:type owl:NamedIndividual ,
+                     :Dornishmen .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dragonstone
+:Dragonstone rdf:type owl:NamedIndividual ,
+                      :Westeros ;
+             :culture_formed_by :Valyrians ;
+             :has_religion "Faith of the Seven" ,
+                           "R'hllor, the Lord of Light" .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Drogon
+:Drogon rdf:type owl:NamedIndividual ,
+                 :Dragon ;
+        :born 298 ;
+        :is_dead "false"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Mance_Rayder
+:Mance_Rayder rdf:type owl:NamedIndividual ,
+                       :Human ;
+              :comes_from :Beyond_The_Wall .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Rhaego
+:Rhaego rdf:type owl:NamedIndividual ,
+                 :Human .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Sunspear
+:Sunspear rdf:type owl:NamedIndividual ,
+                   :Known_World ;
+          :culture_formed_by :Dornishmen .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Crownlands
+:The_Crownlands rdf:type owl:NamedIndividual ,
+                         :The_Crownlands ;
+                :has_religion "Faith of the Seven" ;
+                :was_own_kingdom "false"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Valyrians
+:Valyrians rdf:type owl:NamedIndividual ,
+                    :Valyrians .
+
+
+###  http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Viserys_Targaryen
+:Viserys_Targaryen rdf:type owl:NamedIndividual ,
+                            :Valyrians ;
+                   :has_siblings :Daenerys_I_Targaryen ;
+                   :is_dead "true"^^xsd:boolean .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+:Beyond_The_Wall rdfs:comment "Class Beyond_The_Wall" ;
+                 rdfs:label "Beyond_The_Wall" .
+
+
+:Dornishmen rdfs:comment "Class Dornishmen" ;
+            rdfs:label "Dornishmen" .
+
+
+:The_Crownlands rdfs:comment "Class The_Crownlands" ;
+                rdfs:label "The_Crownlands" .
+
+
+:Valyrians rdfs:comment "Class Valyrians" ;
+           rdfs:label "Valyrians" .
+
+
+#################################################################
+#    Rules
+#################################################################
+
+<urn:swrl:var#x> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<urn:swrl:var#y> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Human ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#x>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :has_non-human_allies ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#x> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#y>
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#classPredicate> :Dragon ;
+                                                                             <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#y>
+                                                                           ] ;
+                                                                 rdf:rest rdf:nil
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Valyrians ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#x>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Human ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#x>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :comes_from ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#x> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#y>
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#classPredicate> :Beyond_The_Wall ;
+                                                                             <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#y>
+                                                                           ] ;
+                                                                 rdf:rest rdf:nil
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Free_Folk ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#x>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Known_World ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#x>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :culture_formed_by ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#x> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#y>
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#classPredicate> :Dornishmen ;
+                                                                             <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#y>
+                                                                           ] ;
+                                                                 rdf:rest rdf:nil
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Dorne ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#x>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
