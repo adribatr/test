@@ -1,0 +1,992 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#comes_from"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Known_World"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#x"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Free_Folk"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid17"
+    }, {
+      "@id" : "_:genid15"
+    }, {
+      "@id" : "_:genid13"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid19"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#y"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dragon"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#x"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#y"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_non-human_allies"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#x"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#x"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Valyrians"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid8"
+    }, {
+      "@id" : "_:genid6"
+    }, {
+      "@id" : "_:genid4"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid10"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid26"
+    }, {
+      "@id" : "_:genid24"
+    }, {
+      "@id" : "_:genid22"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid28"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#y"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dornishmen"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#x"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#y"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#culture_formed_by"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#x"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Known_World"
+  } ]
+}, {
+  "@id" : "_:genid28",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#x"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dorne"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#y"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Beyond_The_Wall"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#x"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#y"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#comes_from"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#x"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An ontology about the locations and living beings in the show Game of Thrones.\nAuthors:\nAdrián Barrios Trujillo\nCarles Pallàs Vadillo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Aerys_II_Targaryen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_children" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Daenerys_I_Targaryen"
+  }, {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Viserys_Targaryen"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Valyrians"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Andals",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class Andals"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Andals"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Beyond_The_Wall",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Beyond_The_Wall"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class Beyond_The_Wall"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Beyond_The_Wall"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Westeros"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Cave_People",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class Cave_People"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Cave_People"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Free_Folk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Children_Of_The_Forest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class Children_Of_The_Forest"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Children_Of_The_Forest"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Legendary_Creature"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Crannongmen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class Crannongmen"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Crannongmen"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Daenerys_I_Targaryen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#born" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "281"
+  } ],
+  "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#comes_from" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dragonstone"
+  } ],
+  "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_children" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Rhaego"
+  } ],
+  "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_non-human_allies" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Drogon"
+  } ],
+  "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#is_dead" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#portrayed_by" : [ {
+    "@value" : "Emilia Clarke"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dorne",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class Dorne"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Dorne"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Seven_Kingdoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dornishmen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dornishmen"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class Dornishmen"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Dornishmen"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dothraki",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class Dothraki"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Dothraki"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dragon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class Dragon"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Dragon"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Dragon"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Legendary_Creature"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dragonstone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#culture_formed_by" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Valyrians"
+  } ],
+  "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_religion" : [ {
+    "@value" : "Faith of the Seven"
+  }, {
+    "@value" : "R'hllor, the Lord of Light"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Westeros"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Drogon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#born" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "298"
+  } ],
+  "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#is_dead" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dragon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Essos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class Essos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Essos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Known_World"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#First_Men",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class First_Men"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "First_Men"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Free_Cities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class Free_Cities"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Free_Cities"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Essos"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Free_Folk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class Free_Folk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Free_Folk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Ghiscari",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class Ghiscari"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Ghiscari"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Giant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class Giant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Giant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Giant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Legendary_Creature"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Harpy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class Harpy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Harpy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Harpy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Legendary_Creature"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Hill_Tribes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class Hill_Tribes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hill_Tribes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Hornfoot",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class Hornfoot"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hornfoot"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Free_Folk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class Human"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Human"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Human"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Living_Being"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Legendary_Creature"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Ice-River_Clans",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class Ice-River_Clans"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Ice-River_Clans"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Free_Folk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Ironborn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class Ironborn"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Ironborn"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Known_World",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class Known_World"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Known_World"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Living_Being"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Legendary_Creature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class Legendary_Creature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Legendary_Creature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Legendary_creature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Living_Being"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Lhazareen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class Lhazareen"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Lhazareen"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Living_Being",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class Living_Being"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Living_Being"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Mance_Rayder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#comes_from" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Beyond_The_Wall"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Rhaego",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Seven_Kingdoms",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class Seven_Kingdoms"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Seven_Kingdoms"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Westeros"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Shadow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class Shadow"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Shadow"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Legendary_Creature"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Sothoryos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class Sothoryos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Sothoryos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Known_World"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Sunspear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#culture_formed_by" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dornishmen"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Known_World"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Crownlands",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_religion" : [ {
+    "@value" : "Faith of the Seven"
+  } ],
+  "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#was_own_kingdom" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Crownlands"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class The_Crownlands"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The_Crownlands"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Seven_Kingdoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Iron_Islands",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class The_Iron_Islands"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The_Iron_Islands"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Seven_Kingdoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_North",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class The_North"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The_North"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Seven_Kingdoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Reach",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class The_Reach"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The_Reach"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Seven_Kingdoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Riverlands",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class The_Riverlands"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The_Riverlands"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Seven_Kingdoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Stormlands",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class The_Stormlands"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The_Stormlands"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Seven_Kingdoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Vale_of_Arryn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class The_Vale_of_Arryn"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The_Vale_of_Arryn"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Seven_Kingdoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Westerlands",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class The_Westerlands"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The_Westerlands"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Seven_Kingdoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Thenn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class Thenn"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Thenn"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Free_Folk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Valyrians",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Valyrians"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class Valyrians"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Valyrians"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Viserys_Targaryen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_siblings" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Daenerys_I_Targaryen"
+  } ],
+  "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#is_dead" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Valyrians"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Westeros",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class Westeros"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Westeros"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Known_World"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#White_Walker",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class White_Walker"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "White_Walker"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Legendary_Creature"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Wight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Class Wight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Wight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Legendary_Creature"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#born",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Data property born"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Living_Being"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "born"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#comes_from",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Object property comes_from"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Living_Being"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "comes_from"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Known_World"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#culture_formed_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Object property culture_formed_by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Known_World"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "culture_formed_by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_children",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Object property has_children"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has_children"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#is_child_of"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_non-human_allies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Object property has_non-human_allies"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has_non-human_allies"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Legendary_Creature"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_religion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Data property has_religion"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Known_World"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has_religion"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_siblings",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Object property has_siblings"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has_siblings"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#is_child_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Object property is_child_of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "is_child_of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#is_dead",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Data property is_dead"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Living_Being"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "is_dead"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#portrayed_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Data property portrayed_by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Living_Being"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "portrayed_by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#was_own_kingdom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Data property was_own_kingdom"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Seven_Kingdoms"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "was_own_kingdom"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "urn:swrl:var#x",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#y",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+} ]

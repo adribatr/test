@@ -1,0 +1,180 @@
+{
+  "@context" : {
+    "Giant" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Giant"
+    },
+    "The_Iron_Islands" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Iron_Islands"
+    },
+    "Dothraki" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dothraki"
+    },
+    "The_Westerlands" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Westerlands"
+    },
+    "Westeros" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Westeros"
+    },
+    "Essos" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Essos"
+    },
+    "Crannongmen" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Crannongmen"
+    },
+    "Ironborn" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Ironborn"
+    },
+    "Shadow" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Shadow"
+    },
+    "Hill_Tribes" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Hill_Tribes"
+    },
+    "Legendary_Creature" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Legendary_Creature"
+    },
+    "Sothoryos" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Sothoryos"
+    },
+    "Living_Being" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Living_Being"
+    },
+    "Free_Folk" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Free_Folk"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "has_children" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_children",
+      "@type" : "@id"
+    },
+    "Human" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Human"
+    },
+    "White_Walker" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#White_Walker"
+    },
+    "Dorne" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dorne"
+    },
+    "Dornishmen" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dornishmen"
+    },
+    "Valyrians" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Valyrians"
+    },
+    "Thenn" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Thenn"
+    },
+    "born" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#born",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "The_Crownlands" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Crownlands"
+    },
+    "is_child_of" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#is_child_of",
+      "@type" : "@id"
+    },
+    "culture_formed_by" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#culture_formed_by",
+      "@type" : "@id"
+    },
+    "Ghiscari" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Ghiscari"
+    },
+    "Lhazareen" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Lhazareen"
+    },
+    "The_Riverlands" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Riverlands"
+    },
+    "has_religion" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_religion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "portrayed_by" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#portrayed_by",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Free_Cities" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Free_Cities"
+    },
+    "Seven_Kingdoms" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Seven_Kingdoms"
+    },
+    "Known_World" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Known_World"
+    },
+    "The_North" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_North"
+    },
+    "Children_Of_The_Forest" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Children_Of_The_Forest"
+    },
+    "comes_from" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#comes_from",
+      "@type" : "@id"
+    },
+    "has_siblings" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_siblings",
+      "@type" : "@id"
+    },
+    "was_own_kingdom" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#was_own_kingdom",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "has_non-human_allies" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#has_non-human_allies",
+      "@type" : "@id"
+    },
+    "Dragon" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Dragon"
+    },
+    "The_Stormlands" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Stormlands"
+    },
+    "The_Reach" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Reach"
+    },
+    "Ice-River_Clans" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Ice-River_Clans"
+    },
+    "Beyond_The_Wall" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Beyond_The_Wall"
+    },
+    "Cave_People" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Cave_People"
+    },
+    "Hornfoot" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Hornfoot"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "Wight" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Wight"
+    },
+    "The_Vale_of_Arryn" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#The_Vale_of_Arryn"
+    },
+    "Harpy" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Harpy"
+    },
+    "First_Men" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#First_Men"
+    },
+    "Andals" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#Andals"
+    },
+    "is_dead" : {
+      "@id" : "http://www.semanticweb.org/aac/ontologies/2022/3/Game_of_Thrones#is_dead",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    }
+  }
+}
